@@ -1,2 +1,8 @@
-print("hello It's Me")
-print("I've be wondering if ... ")
+print("code academy")
+
+class Animal (object):
+    def __init__(self, name):
+        self.name = name
+    def printName(self):
+        print(self.name)
+
